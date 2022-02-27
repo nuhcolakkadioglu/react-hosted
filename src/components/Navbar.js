@@ -17,7 +17,7 @@ export default function Navbar() {
                             <NavLink className="nav-link active" aria-current="page" to="/">Anasayfa</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/products">Ürünler 1</NavLink>
+                            <NavLink className="nav-link" to="/products">Ürünler</NavLink>
                         </li>
 
                         <li className="nav-item">
