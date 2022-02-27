@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Skeleton from 'react-loading-skeleton';
 import { NavLink, useParams } from 'react-router-dom'
-import {useDispatch,useSelector} from 'react-redux'
+import {useDispatch} from 'react-redux'
 import {addCart} from '../redux/action'
 export default function Product() {
     const { id } = useParams();
