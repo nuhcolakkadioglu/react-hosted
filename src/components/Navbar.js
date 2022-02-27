@@ -3,7 +3,7 @@ import {NavLink} from 'react-router-dom'
 import { useSelector } from 'react-redux'
 export default function Navbar() {
     const state = useSelector(state =>state);
- 
+  
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-white py-3 shadow-sm">
             <div className="container">
@@ -17,7 +17,7 @@ export default function Navbar() {
                             <NavLink className="nav-link active" aria-current="page" to="/">Anasayfa</NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to="/products">Ürünler</NavLink>
+                            <NavLink className="nav-link" to="/products">Ürünler 1</NavLink>
                         </li>
 
                         <li className="nav-item">
